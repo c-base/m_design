@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plain CSS Solution</title>
+
+    <style type="text/css">
+        body {
+            background-color:black;
+            color:white;
+        }
+
+        .rotating-base .rotating-img {
+            background-size: 100% auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 580px;
+            height: 580px;
+            margin:-290px 0 0 -290px;
+        }
+
+        .rotating-base .c-base-outline {
+            background-image: url(images/base_index_01.png);
+            -webkit-animation:spin-base 30s linear infinite;
+            -moz-animation:spin-base 30s linear infinite;
+            animation:spin-base 30s linear infinite;
+        }
+
+        .rotating-base .logo-spikes1 {
+            background-image: url(images/base_index_02.png);
+            -webkit-animation:spin2 10s linear infinite;
+            -moz-animation:spin2 10s linear infinite;
+            animation:spin2 10s linear infinite;
+        }
+
+        .rotating-base .logo-spikes2 {
+            background-image: url(images/base_index_03.png);
+            -webkit-animation:spin3 5s ease-in infinite;
+            -moz-animation:spin3 5s ease-in infinite;
+            animation:spin3 5s ease-in infinite;
+        }
+
+        @-moz-keyframes spin-base {
+            100% {
+                -moz-transform: rotate(360deg);
+            }
+        }
+        @-webkit-keyframes spin-base {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        @keyframes spin-base {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform:rotate(360deg);
+            }
+        }
+
+        @-moz-keyframes spin2 {
+            100% {
+                -moz-transform: rotate(-360deg);
+            }
+        }
+        @-webkit-keyframes spin2 {
+            100% {
+                -webkit-transform: rotate(-360deg);
+            }
+        }
+        @keyframes spin2 {
+            100% {
+                -webkit-transform: rotate(-360deg);
+                transform:rotate(-360deg);
+            }
+        }
+
+        @-moz-keyframes spin3 {
+            0% {-moz-transform: rotate(0deg);}
+            10% {-moz-transform: rotate(36deg);}
+            50% {-moz-transform: rotate(270deg);}
+            100% {-moz-transform: rotate(360deg);}
+        }
+        @-webkit-keyframes spin3 {
+            0% {-webkit-transform: rotate(0deg);}
+            10% {-webkit-transform: rotate(36deg);}
+            50% {-webkit-transform: rotate(270deg);}
+            100% {-webkit-transform: rotate(360deg);}
+        }
+        @keyframes spin3 {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform:rotate(0deg);
+            }
+            10% {
+                -webkit-transform: rotate(36deg);
+                transform:rotate(36deg);
+            }
+            50% {
+                -webkit-transform: rotate(270deg);
+                transform:rotate(270deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform:rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="rotating-base">
+        <div class="rotating-img c-base-outline"></div>
+        <div class="rotating-img logo-spikes1"></div>
+        <div class="rotating-img logo-spikes2"></div>
+    </div>
+</body>
+</html>
