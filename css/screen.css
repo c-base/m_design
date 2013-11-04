@@ -31,13 +31,17 @@ h3, h4, h5 {
 	color:#8e9fa5;
 }
 
+.heads {
+	margin-left: 10px;
+}
+
 p{
 	color:#8e9fa5;
 }
 
 ul {}
 
-ul li {color:#EDEDBE;}
+ul li {color:#8e9fa5;}
 
 ul.kill {
 	list-style-image: none;
@@ -54,8 +58,12 @@ ul.kill {
 	color: red;
 }
 
+.stage {
+	height: 300px;
+	margin-top:100px; 
+}
+
 .navbar {
-	margin: 20px;
 	background-color: #29abe2;
 	background-opacity:0.2;
 	border: 0px solid;
@@ -66,7 +74,14 @@ ul.kill {
 
 
 .navbar-header {
-	max-width: 1260px;
+	
+}
+
+.navbar-default a.navbar-brand {
+	color:#fff;
+}
+.navbar-default a.navbar-brand:hover {
+	color:#FF9900;
 }
 
 
@@ -97,6 +112,10 @@ ul.kill {
 	color:#000;
 }
 
+.navbar-header a:hover {
+	color:#FF9900;
+}
+
 
 .alpha60 {
     /* Fallback for web browsers that don't support RGBa */
@@ -120,9 +139,6 @@ ul.kill {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 }
 
-.navbar-default .navbar-brand {
-	color:#fff;
-}
 
 .ceva {
 	font-family: "ceva"
@@ -132,10 +148,118 @@ ul.kill {
 }
 
 .c_tatus {
+		padding: 20px 15px;
+		margin-bottom: 20px;
+}
+
+.styelb {
 		background-image: url(../img/border_V.png);
 		background-repeat: repeat-x;
 		background-position: top;
-		padding: 20px 15px;
-		margin-bottom: 20px;
-		 
+}
+
+.infoboxen {
+	margin: 30px 0 30px 0;
+}
+
+.calendar {
+	border: 2px solid #46b6ee;
+	padding: 20px 15px;
+	margin-top: 10px;
+}
+
+.internal_calendar {
+	background-color: #fff;
+	padding: 20px 15px;
+}
+
+
+/*passwort formfield kram*/
+
+
+.setPINfield {
+	margin-top: 30px;
+}
+
+
+/* fancy base */
+
+.rotating-base .rotating-img {
+            background-size: 100% auto;
+            position: absolute;
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            width: 1280px;
+            height: 1280px;
+            margin:-640px 0 0 -640px;
+        }
+
+        .rotating-base .c-base-outline {
+            background-image: url(../images/base_index_01.png);
+            -webkit-animation:spin-base 100s linear infinite;
+            -moz-animation:spin-base 100s linear infinite;
+            animation:spin-base 100s linear infinite;
+        }
+
+        .rotating-base .logo-spikes1 {
+            background-image: url(../images/base_index_02.png);
+            -webkit-animation:spin2 70s linear infinite;
+            -moz-animation:spin2 70s linear infinite;
+            animation:spin2 70s linear infinite;
+        }
+
+        .rotating-base .logo-spikes2 {
+            background-image: url(../images/base_index_03.png);
+            -webkit-animation:spin3 30s linear infinite;
+            -moz-animation:spin3 30s linear infinite;
+            animation:spin3 30s linear infinite;
+        }
+
+        @-moz-keyframes spin-base {
+            100% {
+                -moz-transform: rotate(360deg);
+            }
+        }
+        @-webkit-keyframes spin-base {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        @keyframes spin-base {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform:rotate(360deg);
+            }
+        }
+
+        @-moz-keyframes spin2 {
+            100% {
+                -moz-transform: rotate(-360deg);
+            }
+        }
+        @-webkit-keyframes spin2 {
+            100% {
+                -webkit-transform: rotate(-360deg);
+            }
+        }
+        @keyframes spin2 {
+            100% {
+                -webkit-transform: rotate(-360deg);
+                transform:rotate(-360deg);
+            }
+        }
+
+        @-moz-keyframes spin3 {
+            100% {-moz-transform: rotate(360deg);}
+        }
+        @-webkit-keyframes spin3 {
+            100% {-webkit-transform: rotate(360deg);} 
+        }
+        @keyframes spin3 {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform:rotate(360deg);
+            }
+        }		 
 }
