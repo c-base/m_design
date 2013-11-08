@@ -25,7 +25,11 @@ background-repeat: repeat;
 color: #e6e6e6;
 font-family: 'Share Tech', sans-serif;
 font-size: 1.8em;
+<<<<<<< HEAD
 padding: 0 40px;
+=======
+padding: 10px;
+>>>>>>> master
 }
 
 
@@ -53,6 +57,10 @@ p{
 	color:#8e9fa5;
 }
 
+p.text_orange {
+	color:#FF9900;
+}
+
 ul {}
 
 ul li {color:#8e9fa5;}
@@ -65,7 +73,51 @@ ul.kill {
 }
 
 .containerbox {
-	margin: 20px;
+    padding: 20px;
+}
+
+.purple {
+
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 51);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 51, 0.3);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+}
+
+/*crew list*/
+
+ul.list_purple {
+
+}
+
+ul.list_purple li{
+    padding: 20px;
+}
+
+ul.list_purple li:hover{
+    background-color: rgba(0, 0, 51, 0.6);
+    color: #fff;
+}
+
+ul.list_purple li span{
+    display: inline-block;
+}
+
+span.status { width: 20px; height:20px; margin-left: 0px;}
+span.name { min-width: 140px; padding-left: 40px;}
+span.mail { min-width: 140px;}
+span.topics { float:right;}
+span.online { background-image: url(../img/status_online.png); background-repeat: no-repeat;}
+span.offline { background-image: url(../img/status_offline.png); background-repeat: no-repeat;}
+
+
+.crew_search {
+    margin: 20px;
 }
 
 .red {
@@ -187,12 +239,48 @@ ul.kill {
 	padding: 20px 15px;
 }
 
+.cevawatch {
+
+}
+.cevatime {
+	font-family: ceva;
+	font-size: 6em;
+}
 
 /*passwort formfield kram*/
 
 
 .setPINfield {
 	margin-top: 30px;
+}
+
+/*  */
+
+.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}
+.animated.hinge{-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}@-webkit-keyframes flash {
+	0%, 50%, 100% {opacity: 1;}	25%, 75% {opacity: 0;}
+}
+
+@-moz-keyframes flash {
+	0%, 50%, 100% {opacity: 1;}	
+	25%, 75% {opacity: 0;}
+}
+
+@-o-keyframes flash {
+	0%, 50%, 100% {opacity: 1;}	
+	25%, 75% {opacity: 0;}
+}
+
+@keyframes flash {
+	0%, 50%, 100% {opacity: 1;}	
+	25%, 75% {opacity: 0;}
+}
+
+.flash {
+	-webkit-animation-name: flash;
+	-moz-animation-name: flash;
+	-o-animation-name: flash;
+	animation-name: flash;
 }
 
 
@@ -276,4 +364,13 @@ ul.kill {
                 transform:rotate(360deg);
             }
         }		 
+}
+
+
+@media (min-width: 767px) { 
+
+body {
+	padding: 30px;
+}
+
 }
