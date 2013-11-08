@@ -104,13 +104,17 @@ ul.list_purple li span{
     display: inline-block;
 }
 
-span.status { width: 20px; height:20px; margin-left: 20px;}
+span.status { width: 20px; height:20px; margin-left: 0px;}
 span.name { min-width: 140px; padding-left: 40px;}
 span.mail { min-width: 140px;}
 span.topics { float:right;}
 span.online { background-image: url(../img/status_online.png); background-repeat: no-repeat;}
 span.offline { background-image: url(../img/status_offline.png); background-repeat: no-repeat;}
 
+
+.crew_search {
+    margin: 20px;
+}
 
 .red {
 	color: red;
