@@ -288,7 +288,7 @@ span.offline { background-image: url(../img/status_offline.png); background-repe
 
 .rotating-base .rotating-img {
             background-size: 100% auto;
-            position: absolute;
+            position: fixed;
             z-index: -1;
             top: 50%;
             left: 50%;
