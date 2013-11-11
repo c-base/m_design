@@ -32,6 +32,12 @@ padding: 10px;
 >>>>>>> master
 }
 
+body.public_background {
+
+    background-image: url(../img/base_untersicht.png),url(../img/bg_cross.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center top, left top;
+}
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Share Tech', sans-serif;
@@ -125,7 +131,7 @@ span.offline { background-image: url(../img/status_offline.png); background-repe
 }
 
 .stage {
-	height: 300px;
+	min-height: 300px;
 	margin-top:100px; 
 }
 
@@ -143,10 +149,10 @@ span.offline { background-image: url(../img/status_offline.png); background-repe
 	
 }
 
-.navbar-default a.navbar-brand {
+.dropdown .navbar-default>li>a.navbar-brand {
 	color:#fff;
 }
-.navbar-default a.navbar-brand:hover {
+.dropdown .navbar-default>li>a.navbar-brand:hover {
 	color:#FF9900;
 }
 
@@ -182,6 +188,10 @@ span.offline { background-image: url(../img/status_offline.png); background-repe
 	color:#FF9900;
 }
 
+
+.containercustom{
+    padding-left: 20px;
+}
 
 .alpha60 {
     /* Fallback for web browsers that don't support RGBa */
@@ -313,9 +323,15 @@ span.offline { background-image: url(../img/status_offline.png); background-repe
 
         .rotating-base .logo-spikes2 {
             background-image: url(../images/base_index_03.png);
+<<<<<<< HEAD
             -webkit-animation:spin3 60s linear infinite;
             -moz-animation:spin3 60s linear infinite;
             animation:spin3 60s linear infinite;
+=======
+            -webkit-animation:spin3 330s linear infinite;
+            -moz-animation:spin3 330s linear infinite;
+            animation:spin3 330s linear infinite;
+>>>>>>> master
         }
 
         @-moz-keyframes spin-base {
