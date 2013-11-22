@@ -128,7 +128,7 @@ span.offline { background-image: url(../img/status_offline.png); background-repe
 
 .stage {
 	min-height: 300px;
-	margin-top:100px; 
+	
 }
 
 .navbar {
@@ -251,6 +251,34 @@ span.offline { background-image: url(../img/status_offline.png); background-repe
 .cevatime {
 	font-family: ceva;
 	font-size: 6em;
+}
+
+
+ul.c_tation_overview {
+    margin-top: 10%;
+    margin-bottom: 20%;
+
+}
+
+ul.c_tation_overview li{
+    float:left;
+    margin-left: 20px;
+    opacity: 0.5;
+    font-size: 0.8em;
+    min-width: 70px;
+}
+
+ul.c_tation_overview li:hover{
+    opacity: 1;
+
+}
+
+ul.c_tation_overview li.active{
+    opacity: 1;
+}
+
+ul.c_tation_overview li img {
+    width:40px;
 }
 
 /*passwort formfield kram*/
