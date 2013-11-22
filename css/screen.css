@@ -116,6 +116,15 @@ span.mail { min-width: 140px;}
 span.topics { float:right;}
 span.online { background-image: url(../img/status_online.png); background-repeat: no-repeat;}
 span.offline { background-image: url(../img/status_offline.png); background-repeat: no-repeat;}
+span.cey { background-image: url(../img/status_online_cey.png); background-repeat: no-repeat;}
+span.landurlaub { background-image: url(../img/status_offline.png); background-repeat: no-repeat;}
+
+
+
+ul.tinylist {}
+ul.tinylist li {
+    padding:10px 10px 10px 0;
+}
 
 
 .crew_search {
@@ -286,6 +295,15 @@ ul.c_tation_overview li img {
 
 .setPINfield {
 	margin-top: 30px;
+}
+
+.input-group {
+    background:2px solid #29abe2;
+}
+
+.col-lg-4 {
+    width:100%;
+    padding-right: 10%;
 }
 
 /*  */
