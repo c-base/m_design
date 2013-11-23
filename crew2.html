@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>crew</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="author" content="Marie Schweiz" />
     <meta name="publisher" content="c-base.org ev." />
     <meta name="copyright" content="c-base.org ev." />
@@ -14,67 +13,64 @@
     <meta name="page-type" content="intranet" />
     <meta name="audience" content="Profis">
     <meta name="robots" content="no-follow" />
-
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Vidaloka' rel='stylesheet' type='text/css'>
-
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/screen.css" rel="stylesheet" media="screen">
     <link rel="shortcut icon" href="fav.ico" type="image/x-icon">
-
   </head>
+  <body>
+    <header class="row">
+      <div class="col-xs-12">
+        <nav class="navbar navbar-default alpha60" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span class="ceva cbase">c-base</span> internal: m</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">c_tatus</a></li>
+              <li class="active"><a href="crew.html">crew</a></li>
+              <li><a href="#">inbox</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">c_ettings <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="replicator.html">Replicator Pin</a></li>
+                  <li><a href="#">Wifi Access</a></li>
+                  <li><a href="#">RFID ident</a></li>
+                  <li><a href="#">NRF PIN</a></li>
+                  <li><a href="#">SIP PIN</a></li>
+                  <li><a href="#">c-lab cey</a></li>
+                  <li><a href="#">m_achine cey</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+      </div>
+      <!-- /.navbar-collapse -->
+      </nav>
+      </div>
+    </header>
 
+    <div class="containercustom">
+    <div class="row">
+      <div class="col-xs-12 col-md-8">
+        <h2 class="heads">crew</h2>
+      </div>
 
-<body>
-
-  <nav class="navbar navbar-default alpha60" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#"><span class="ceva cbase">c-base</span> internal: m</a>
-  </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav">
-      <li><a href="index.html">c_tatus</a></li>
-      <li class="active"><a href="crew.html">crew</a></li>
-      <li><a href="#">inbox</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">c_ettings <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="replicator.html">Replicator Pin</a></li>
-          <li><a href="#">Wifi Access</a></li>
-          <li><a href="#">RFID ident</a></li>
-          <li><a href="#">NRF PIN</a></li>
-          <li><a href="#">SIP PIN</a></li>
-          <li><a href="#">c-lab cey</a></li>
-          <li><a href="#">m_achine cey</a></li>
-        </ul>
-      </li>
-    </ul>
-   
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Logout</a></li>
-      
-    </ul>
-    </div>
-  </div><!-- /.navbar-collapse -->
-</nav>
-
-
-  <div class="row">
-    <div class="col-xs-12 col-md-8">
-      <h2 class="heads">crew</h2>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <div class="col-lg-8 crew_search">
+      <div class="col-xs-12 col-md-4">
+        <div class="crew_search">
           <div class="input-group">
             <input type="text" class="form-control">
             <div class="input-group-btn">
@@ -94,48 +90,59 @@
                 <li class="divider"></li>
                 <li><a href="#">vorstand</a></li>
               </ul>
-            </div><!-- /btn-group -->
-          </div><!-- /input-group -->
-         </div><!-- /.col-lg-6 -->
-      </div>
-  </div>
-
-  <div class="row">
-          <div class="col-xs-12 col-md-12">
-            <div class="table-responsive purple">
-              <table class="table">
-                
-                <tr>
-                  <td class="cey"><span class="name online cey">cketti</span></td>
-                  <td><span class="mail">cketti@c-base.org</span></td>
-                  <td class="group"><img src="img/icn_sem_clab_normal.png"><img src="img/icn_sem_circle_normal.png"></td>
-                  <td class="tag">#cey, #c-lab, #community, #android stammtisch</td>
-                </tr>
-
-              </table>
-             </div>
+            </div>
+            <!-- /btn-group -->
           </div>
-  </div>
+          <!-- /input-group -->
+        </div>
+        <!-- /.col-lg-6 -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <div class="table-responsive purple">
+          <table class="table">
 
+            <tr>
+              <td class="cey"><span class="name online cey">cketti</span></td>
+              <td><span class="mail">cketti@c-base.org</span></td>
+              <td class="group"><img title="c-lab cey" src="img/icn_sem_clab_normal.png"><img  title="circle member" src="img/icn_sem_circle_normal.png"><img  title="cey" src="img/icn_sem_cey_normal.png"></td>
+              <td class="tag">#cey, #c-lab, #community, #android stammtisch</td>
+            </tr>
 
+            <tr>
+              <td class="cey"><span class="name online cey">Xen</span></td>
+              <td><span class="mail">xen@c-base.org</span></td>
+              <td class="group"><img title="c-lab cey" src="img/icn_sem_clab_normal.png"><img  title="cey" src="img/icn_sem_cey_normal.png"></td>
+              <td class="tag">#cey, #c-lab, #android stammtisch</td>
+            </tr>
+            <tr>
+              <td class="cey"><span class="name online">t</span></td>
+              <td><span class="mail">t@c-base.org</span></td>
+              <td class="group"><img title="c-lab cey" src="img/icn_sem_clab_normal.png"><img  title="circle member" src="img/icn_sem_circle_normal.png"><img  title="cey" src="img/icn_sem_cey_normal.png"></td>
+              <td class="tag">#cey, #c-lab, #community, #android stammtisch</td>
+            </tr>
+            <tr>
+              <td class=""><span class="name offline">uk</span></td>
+              <td><span class="mail">uk@c-base.org</span></td>
+              <td class="group"><img title="c-lab cey" src="img/icn_sem_clab_normal.png"><img  title="circle member" src="img/icn_sem_circle_normal.png"><img  title="cey" src="img/icn_sem_cey_normal.png"></td>
+              <td class="tag">#cey, #c-lab, #community, #android stammtisch</td>
+            </tr>
 
-
-<!-- /.container-collapse -->
-</div>
-
-
-<div class="rotating-base">
-          <div class="rotating-img c-base-outline"></div>
-          <div class="rotating-img logo-spikes1"></div>
-          <div class="rotating-img logo-spikes2"></div>
-</div>
-
- <!-- Scripts -->
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- /.container-collapse -->
+    </div>
+    <div class="rotating-base">
+      <div class="rotating-img c-base-outline"></div>
+      <div class="rotating-img logo-spikes1"></div>
+      <div class="rotating-img logo-spikes2"></div>
+    </div>
+    <!-- Scripts -->
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    
-
-</body>
-
-
+  </body>
 </html>
