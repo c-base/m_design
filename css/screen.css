@@ -112,19 +112,6 @@ ul.list_purple li span{
     display: inline-block;
 }
 
-span.status { width: 20px; height:20px; margin-left: 0px; padding-left: 25px; color:#45af5b;}
-span.name { min-width: 140px; padding-left: 40px;}
-span.mail { min-width: 140px;}
-span.topics { float:right;}
-span.online { background-image: url(../img/status_online.png); background-repeat: no-repeat;}
-span.offline { background-image: url(../img/status_offline.png); background-repeat: no-repeat;}
-span.cey { background-image: url(../img/status_online_cey.png); background-repeat: no-repeat;}
-span.landurlaub { background-image: url(../img/status_offline.png); background-repeat: no-repeat;}
-.tag {text-align: right;}
-
-.group img{ width:20px; margin: 0 10px;}
-
-
 ul.tinylist {}
 ul.tinylist li {
     padding:10px 10px 10px 0;
@@ -199,7 +186,7 @@ ul.tinylist li {
 
 
 .containercustom{
-    padding: 20px;
+    padding: 0 20px 20px 20px;
 }
 
 .alpha60 {
@@ -334,7 +321,21 @@ ul.c_tation_overview li img {
 
 .purple .table thead>tr>th, .table tbody>tr>th, .table tfoot>tr>th, .table thead>tr>td, .table tbody>tr>td, .table tfoot>tr>td {
     border-top: 1px solid black;
+    padding: 11px;
 }
+
+span.status { width: 20px; height:21px; margin-left: 0px; padding-left: 25px; color:#45af5b;}
+span.name { min-width: 140px; height:21px; padding-left: 40px;}
+span.mail { min-width: 140px;}
+span.topics { float:right;}
+span.online { background-image: url(../img/status_online.png); background-repeat: no-repeat;}
+span.offline { background-image: url(../img/status_offline.png); background-repeat: no-repeat;}
+span.cey { background-image: url(../img/status_online_cey.png); background-repeat: no-repeat;}
+span.landurlaub { background-image: url(../img/status_offline.png); background-repeat: no-repeat;}
+.tag {text-align: right;}
+
+.group img{ width:20px; margin: 0 10px;}
+
 
 /*  */
 
