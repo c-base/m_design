@@ -25,7 +25,11 @@ background-repeat: repeat;
 color: #e6e6e6;
 font-family: 'Share Tech', sans-serif;
 font-size: 1.8em;
+<<<<<<< HEAD
+padding: 0 40px;
+=======
 padding: 10px;
+>>>>>>> master
 }
 
 body.public_background {
@@ -351,23 +355,29 @@ ul.c_tation_overview li img {
 
         .rotating-base .c-base-outline {
             background-image: url(../images/base_index_01.png);
-            -webkit-animation:spin-base 100s linear infinite;
-            -moz-animation:spin-base 100s linear infinite;
-            animation:spin-base 100s linear infinite;
+            -webkit-animation:spin-base 300s linear infinite;
+            -moz-animation:spin-base 300s linear infinite;
+            animation:spin-base 300s linear infinite;
         }
 
         .rotating-base .logo-spikes1 {
             background-image: url(../images/base_index_02.png);
-            -webkit-animation:spin2 70s linear infinite;
-            -moz-animation:spin2 70s linear infinite;
-            animation:spin2 70s linear infinite;
+            -webkit-animation:spin2 170s linear infinite;
+            -moz-animation:spin2 170s linear infinite;
+            animation:spin2 170s linear infinite;
         }
 
         .rotating-base .logo-spikes2 {
             background-image: url(../images/base_index_03.png);
+<<<<<<< HEAD
+            -webkit-animation:spin3 60s linear infinite;
+            -moz-animation:spin3 60s linear infinite;
+            animation:spin3 60s linear infinite;
+=======
             -webkit-animation:spin3 330s linear infinite;
             -moz-animation:spin3 330s linear infinite;
             animation:spin3 330s linear infinite;
+>>>>>>> master
         }
 
         @-moz-keyframes spin-base {
