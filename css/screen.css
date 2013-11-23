@@ -25,11 +25,9 @@ background-repeat: repeat;
 color: #e6e6e6;
 font-family: 'Share Tech', sans-serif;
 font-size: 1.8em;
-<<<<<<< HEAD
-padding: 0 40px;
-=======
-padding: 10px;
->>>>>>> master
+
+padding: 0 0 40px 0;
+
 }
 
 body.public_background {
@@ -122,7 +120,9 @@ span.online { background-image: url(../img/status_online.png); background-repeat
 span.offline { background-image: url(../img/status_offline.png); background-repeat: no-repeat;}
 span.cey { background-image: url(../img/status_online_cey.png); background-repeat: no-repeat;}
 span.landurlaub { background-image: url(../img/status_offline.png); background-repeat: no-repeat;}
+.tag {text-align: right;}
 
+.group img{ width:20px; margin: 0 10px;}
 
 
 ul.tinylist {}
@@ -199,7 +199,7 @@ ul.tinylist li {
 
 
 .containercustom{
-    padding-left: 20px;
+    padding: 20px;
 }
 
 .alpha60 {
@@ -254,7 +254,7 @@ ul.tinylist li {
 .bordertop-blue {
     border-top: 2px solid #46b6ee;
     padding: 0px 10px 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .bordertop-blue h3 {
