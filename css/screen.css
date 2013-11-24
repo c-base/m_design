@@ -218,50 +218,19 @@ ul.tinylist li {
 .cbase {
 	font-size: 2em;
 }
-
 .c_tatus {
-		padding: 20px 15px;
-		margin-bottom: 20px;
+	
+		margin-bottom: 30px;
+}
+.c_rew {
+    
+        margin-bottom: 20px;
 }
 
-.styelb {
-		background-image: url(../img/border_V.png);
-		background-repeat: repeat-x;
-		background-position: top;
-}
-
-.styelb h3 {
-        color: #FF9900;
-}
-
-.infoboxen {
-	margin: 30px 0 30px 0;
-}
-
-.bordertop-blue {
-    border-top: 2px solid #46b6ee;
-    padding: 0px 10px 10px;
-    margin-bottom: 30px;
-}
-
-.bordertop-blue h3 {
-    color: #46b6ee;
-    margin: 10px 0px 30px;
-}
-
-.bordertop-blue h4 {
-    color: #46b6ee;
-}
-
-.borderblue {
-	border: 2px solid #46b6ee;
-	padding: 20px 15px;
-	margin-top: 10px;
-}
 
 .internal_calendar {
-	background-color: #fff;
-	padding: 20px 15px;
+    background-color: #fff;
+    padding: 20px 15px;
 }
 
 .cevawatch {
@@ -270,14 +239,74 @@ ul.tinylist li {
 
 }
 .cevatime {
-	font-family: ceva;
-	font-size: 6em;
+    font-family: ceva;
+    font-size: 6em;
 }
 
 
+
+
+
+
+.box-transparent-blue{ 
+    padding: 30px;
+    margin-bottom: 30px;
+
+
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(70, 182, 238);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(70, 182, 238, 0.2);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+
+}
+.box-transparent-blue-visible{}
+.box-transparent-purple{}
+.box-white{}
+
+
+/* Gestreifter Ramen oben */
+
+.bordertop-attention {
+		background-image: url(../img/border_V.png);
+		background-repeat: repeat-x;
+		background-position: top;
+        padding: 30px;
+        margin-bottom: 30px;
+}
+.bordertop-attention h3 { color: #FF9900; padding: 0px; }
+
+
+/* Blauer Ramen Oben */
+
+.bordertop-blue {
+    border-top: 2px solid #46b6ee;
+    padding: 0px 10px 10px;
+    margin-bottom: 30px;
+}
+
+.bordertop-blue h3 { color: #46b6ee; margin: 10px 0px 30px;}
+
+.bordertop-blue h4 { color: #46b6ee; }
+
+/* Blauer Ramen komplett */
+
+.borderblue {
+	border: 2px solid #46b6ee;
+	padding: 20px 15px;
+	margin-top: 10px;
+}
+
+
+/* Stationsübersicht beoim status (icons) */
+
 ul.c_tation_overview {
-    margin-top: 10%;
-    margin-bottom: 20%;
+    margin-top: 30px;
+    margin-bottom: 40px;
 
 }
 
